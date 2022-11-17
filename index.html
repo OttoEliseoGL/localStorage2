@@ -39,6 +39,18 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-sm-12 mx-auto">
+                <form>
+                    <div class="form-group">
+                        <label>Pelicula</label>
+                        <input type="text" class="form-control" id="txtPelicula">
+
+                    </div>
+                    <button onclick="guardar()" class="btn btn-primary btn-block" type="button">Guardar</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-12 mx-auto">
                 <h3>Lista de peliculas</h3>
                 <table class="table table-bordered" aria-describedby="peliculas">
                     <thead class="thead-dark">
@@ -48,7 +60,7 @@
                         </tr>
                     </thead>
                     <tbody id="tblPeliculas">
-                         <tr class="text-center font-weight-bold">
+                        <!--  <tr class="text-center font-weight-bold">
                             <td colspan="2">NO HAY REGISTROS</td>
                         </tr> 
                         <tr>
@@ -57,7 +69,7 @@
                                 <button class="btn btn-warning">Editar</button>
                                 <button class="btn btn-danger">Eliminar</button>
                             </td>
-                        </tr> 
+                        </tr> -->
                     </tbody>
                 </table>
             </div>
